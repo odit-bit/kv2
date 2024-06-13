@@ -1,5 +1,5 @@
 # KV2
-key value store application that implement redis protocol
+cache server implementation in go
 
 ## Quickstart 
 
