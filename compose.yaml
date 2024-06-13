@@ -1,0 +1,8 @@
+services:
+  cache:
+    image: oditbit/kv2:1.0
+    ports:
+      - "6969:6969"
+
+    #override default image cmd
+    command: [ "/bin/kvc", "run", --debug ]
